@@ -6,14 +6,11 @@ Animasi diubah menjadi bitmap 1-bit agar dapat diputar frame demi frame langsung
 
 ## Demo perangkat
 
-> Jika video tidak otomatis tampil pada tampilan Markdown tertentu, klik tautan **Putar video dokumentasi** di bawahnya. File video tetap disimpan di repository sehingga dapat diunduh atau diputar langsung dari halaman GitHub.
+GIF berikut dibuat dari video dokumentasi agar dapat tampil langsung pada README GitHub:
 
-<video controls muted loop playsinline width="480">
-  <source src="./docs/doro-display-demo.mp4" type="video/mp4">
-  Browser atau renderer Markdown ini tidak mendukung pemutaran video HTML.
-</video>
+![Video dokumentasi Doro pada OLED](./docs/doro-display-demo.gif)
 
-[▶️ Putar video dokumentasi](./docs/doro-display-demo.mp4)
+Jika ingin melihat versi video asli dengan resolusi lebih tinggi, buka [video dokumentasi MP4](./docs/doro-display-demo.mp4).
 
 ## Fitur
 
@@ -64,6 +61,7 @@ Doro/
 │   ├── anim.h       # 8 frame bitmap 128×64 dalam format MONO
 │   └── doro.ino     # Sketch ESP32 + driver OLED SSD1306
 ├── docs/
+│   ├── doro-display-demo.gif  # Preview animasi untuk README GitHub
 │   └── doro-display-demo.mp4  # Video dokumentasi hasil pengujian
 └── README.md
 ```
