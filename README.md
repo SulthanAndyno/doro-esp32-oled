@@ -6,11 +6,7 @@ Animasi diubah menjadi bitmap 1-bit agar dapat diputar frame demi frame langsung
 
 ## Demo perangkat
 
-GIF berikut dibuat dari video dokumentasi agar dapat tampil langsung pada README GitHub:
-
 ![Video dokumentasi Doro pada OLED](./docs/doro-display-demo.gif)
-
-Jika ingin melihat versi video asli dengan resolusi lebih tinggi, buka [video dokumentasi MP4](./docs/doro-display-demo.mp4).
 
 ## Fitur
 
